@@ -1,0 +1,68 @@
+*
+  box-sizing: border-box
+  background-size: cover
+  font-size: 16px
+  font-family: "Montserrat", serif
+  font-style: normal
+  font-weight: 400
+  line-height: 19.5px
+  text-align: left
+  color: $white
+
+.v-btn
+  text-transform: none
+  max-height: 50px
+  padding-left: 5px
+  padding-right: 5px
+
+.slot-btn
+  text-transform: none
+  height: 36px
+  max-height: 50px
+  padding-left: 20px
+  padding-right: 20px
+  border-radius: 12px
+
+.block
+  height: 100%
+  margin-left: 5px
+  padding: 15px 16px 16px
+  background: rgb(var(--v-theme-background))
+  background-size: cover
+  border-radius: 25px
+
+  &-inner
+    align-items: center
+
+    @media (max-width: 575px)
+      flex-direction: column
+
+.v-dialog
+  background-color: rgba(var(--v-theme-primary), 0.7)
+
+.v-container
+  border-radius: 15px
+
+.v-text-field
+  width: 100%
+  padding-top: 10px
+  text-wrap: unset
+
+::-webkit-scrollbar
+  width: 5px
+
+::-webkit-scrollbar-track
+  background: rgba(var(--v-theme-background), 0.7)
+  border-left: 1px solid rgba(var(--v-theme-background), 0.7)
+
+::-webkit-scrollbar-thumb
+  background: rgba(var(--v-theme-primary), 0.7)
+  border: solid 1px rgb(0,0,0,0)
+  border-radius: 7px
+
+::-webkit-scrollbar-thumb:hover
+  background: #ffffff
+
+
+
+
